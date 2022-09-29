@@ -25,3 +25,13 @@ Content-Type: application/json
 ###
 
 DELETE  http://localhost:3000/orders/131b94df-2e61-48c2-bc1e-339f0143baef
+
+###
+
+POST http://localhost:3000/orders/producer
+Content-Type: application/json
+
+{
+    "name": "Ayslan Fernandes",
+    "event": "kafka concepts" 
+}
